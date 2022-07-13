@@ -18,6 +18,10 @@ void setup()
   //fullScreen();
   size(1920, 1080);
   println(width, height, displayWidth, displayHeight);
+  // Canvas can only display when it is smaller than the DSIPLAY
+  if (width >= displayWidth) exit(); //Canvas is broken
+  if (height >= displayHeight) exit(); // Canvas is broken
+  
 }//End setup
 //
 void draw() 
