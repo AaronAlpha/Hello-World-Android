@@ -3,6 +3,7 @@
 
 println("Hello World");
 print("Mr. Mercer is amazing!");
+println(' ');
 //
 
 // Concatenation
