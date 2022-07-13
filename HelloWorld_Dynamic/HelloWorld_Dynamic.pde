@@ -28,7 +28,8 @@ void setup()
   if (width >= displayWidth || height >= displayHeight) println("Canvas is broken, bigger than display"); //known as 'Error Catch'    --> this line tho can be used to error check
   //
   //Display Geometry
-  String ls = "Landscape or Square", p = "Portrait or square", DO = "Display Orientation", instruct = "Bro, turn your phun";
+  String ls = "Landscape or Square", p = "Portrait or square", DO = "Display Orientation", instruct = "Bro, turn your phun"; //these are local variables
+  String orientation = (appWidth >= appHeight) ? ls : p; //
   //
 }//End setup
 //
