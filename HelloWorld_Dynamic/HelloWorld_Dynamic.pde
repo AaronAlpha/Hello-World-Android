@@ -17,7 +17,7 @@ void setup()
 {
   //Canvas Setup 
   //fullScreen();
-  size(100, 200); //Display Geometry: Landscape, Portrait, Square
+  size(400, 200); //Display Geometry: Landscape, Portrait, Square
   // Able to swap key variables to test for an app
   appWidth = width; // displayWidth
   appHeight = height; // displayHeight
@@ -26,6 +26,7 @@ void setup()
   if (width >= displayWidth) exit(); //Canvas is broken
   if (height >= displayHeight) exit(); // Canvas is broken
   if (width >= displayWidth || height >= displayHeight) println("Canvas is broken, bigger than display"); //known as 'Error Catch'    --> this line tho can be used to error check
+  //More advanced algorithm 
   //
   //Display Geometry
   String ls = "Landscape or Square", p = "Portrait", DO = "Display Orientation", instruct = "Bro, turn your phun"; //these are local variables
