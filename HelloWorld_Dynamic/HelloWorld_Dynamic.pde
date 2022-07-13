@@ -17,7 +17,7 @@ void setup()
 {
   //Canvas Setup 
   //fullScreen();
-  size(300, 200); //Display Geometry: Landscape, Portrait, Square
+  size(100, 200); //Display Geometry: Landscape, Portrait, Square
   // Able to swap key variables to test for an app
   appWidth = width; // displayWidth
   appHeight = height; // displayHeight
@@ -29,7 +29,8 @@ void setup()
   //
   //Display Geometry
   String ls = "Landscape or Square", p = "Portrait or square", DO = "Display Orientation", instruct = "Bro, turn your phun"; //these are local variables
-  String orientation = (appWidth >= appHeight) ? ls : p; //
+  String orientation = (appWidth >= appHeight) ? ls : p; //Ternary Operator(the questions mark '?'), similar to single line IF
+  println(DO, orientation);
   //
 }//End setup
 //
