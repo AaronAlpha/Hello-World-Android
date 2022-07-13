@@ -21,6 +21,7 @@ void setup()
   // Canvas can only display when it is smaller than the DSIPLAY
   if (width >= displayWidth) exit(); //Canvas is broken
   if (height >= displayHeight) exit(); // Canvas is broken
+  if (width >= displayWidth || height >= displayHeight) println("Canvas is broken, bigger than display");
   
 }//End setup
 //
