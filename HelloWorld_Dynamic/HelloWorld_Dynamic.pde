@@ -17,7 +17,7 @@ void setup()
 {
   //Canvas Setup 
   //fullScreen();
-  size(400, 200); //Display Geometry: Landscape, Portrait, Square
+  size(100, 200); //Display Geometry: Landscape, Portrait, Square
   // Able to swap key variables to test for an app
   appWidth = width; // displayWidth
   appHeight = height; // displayHeight
