@@ -15,8 +15,8 @@ char exclamation = '!';
 void setup()
 {
   //Canvas Setup 
-  fullScreen();
-  //size();
+  //fullScreen();
+  size(200, 300);
 }//End setup
 //
 void draw() 
