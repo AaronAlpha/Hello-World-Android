@@ -16,7 +16,7 @@ void setup()
 {
   //Canvas Setup 
   //fullScreen();
-  size(3000, 2500);
+  size(1920, 1080);
   println(width, height, displayWidth, displayHeight);
 }//End setup
 //
