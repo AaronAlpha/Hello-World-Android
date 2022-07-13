@@ -20,3 +20,6 @@ println(mr, period, teacher, is, areYouSerious);
 println(mr+period+space+teacher+space+is+space+areYouSerious+exclamation);
 //
 println(mr+period, teacher, is, areYouSerious+exclamation);
+//
+
+println(mr, period, teacher, is, period+period+period, "\t\t\t"+areYouSerious);
