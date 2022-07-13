@@ -14,13 +14,14 @@ char exclamation = '!';
 
 void setup()
 {
+  //Canvas Setup 
   fullScreen();
   //size();
 }//End setup
 //
 void draw() 
 {
-  println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious); // Character Escapes: letter is actually a code as backSlash, t=tab, n=newline
+  //println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious); // Character Escapes: letter is actually a code as backSlash, t=tab, n=newline
 // 138: period = 46 ascii decimal number; thus 46 x 3(period x 3) = 138
 }//End draw
 //
