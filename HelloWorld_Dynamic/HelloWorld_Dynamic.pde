@@ -18,8 +18,9 @@ void setup()
   //Canvas Setup 
   //fullScreen();
   size(300, 200); //Display Geometry: Landscape, Portrait, Square
-  appWidth = width;
-  appHeight = height;
+  // Able to swap key variables to test for an app
+  appWidth = width; // displayWidth
+  appHeight = height; // displayHeight
   println(width, height, displayWidth, displayHeight);
   // Canvas can only display when it is smaller than the DSIPLAY
   if (width >= displayWidth) exit(); //Canvas is broken
@@ -27,6 +28,7 @@ void setup()
   if (width >= displayWidth || height >= displayHeight) println("Canvas is broken, bigger than display"); //known as 'Error Catch'    --> this line tho can be used to error check
   //
   //Display Geometry
+  String ls = "Landscape or Square", p = "Portrait or square", DO = "Display Orientation", instruct = "Bro, turn your phun";
   //
 }//End setup
 //
