@@ -32,6 +32,12 @@ void setup()
   String orientation = (appWidth >= appHeight) ? ls : p; //Ternary Operator(the questions mark '?'), similar to single line IF
   println(DO, orientation);
   if (orientation == p) println(instruct); //Landscape is preferred 
+  if (orientation == ls) {println("Good to go");
+} else {
+  print(instruct);
+  appWidth *= 0;
+  appHeight *= 0;
+}; //End if
   //
 }//End setup
 //
