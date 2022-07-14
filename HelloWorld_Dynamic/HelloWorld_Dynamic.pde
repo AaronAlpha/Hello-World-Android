@@ -23,8 +23,8 @@ void setup()
   appHeight = height; // displayHeight
   println(width, height, displayWidth, displayHeight);
   // Canvas can only display when it is smaller than the DSIPLAY
-  if (width >= displayWidth) exit(); //Canvas is broken
-  if (height >= displayHeight) exit(); // Canvas is broken
+  if (width >= displayWidth) exit(); // 
+  if (height >= displayHeight) exit(); // \
   if (width >= displayWidth || height >= displayHeight) println("Canvas is broken, bigger than display"); //known as 'Error Catch'    --> this line tho can be used to error check
   //More advanced algorithm 
   //
@@ -33,8 +33,9 @@ void setup()
   String orientation = (appWidth >= appHeight) ? ls : p; //Ternary Operator(the questions mark '?'), similar to single line IF
   println(DO, orientation);
   if (orientation == p) println(instruct); //Landscape is preferred 
-  if (orientation == ls) {println("Good to go");
-} else {
+  
+  if (orientation == ls) {println("Good to go"); 
+  } else {
   print(instruct);
   appWidth *= 0;
   appHeight *= 0;
