@@ -9,7 +9,7 @@ void setup()
   //
   // Population -> when making variables(below) equal numbers 
   float xCenter = width/2 ;
-  float yCenter = height/2
+  float yCenter = height/2;
   xRectStart = xCenter - width*1/4;
   yRectStart = yCenter - height*1/4;
   rectWidth = width*1/2;
