@@ -10,7 +10,7 @@ void setup()
 
 void draw() 
 {
-  
+  rect(xRectStart, yRectStart, rectWidth, rectHeight);
 }; // End draw
 
 void keyPressed() 
