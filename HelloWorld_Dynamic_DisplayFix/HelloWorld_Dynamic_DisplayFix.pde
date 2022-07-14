@@ -17,15 +17,22 @@ void setup()
 {
   //Canvas Setup 
   //fullScreen();
-  size(200, 300); //Display Geometry: Landscape, Portrait, Square
+  println(width, height, displayWidth, displayHeight);
+  size(3000, 2000); //Display Geometry: Landscape, Portrait, Square
   // Able to swap key variables to test for an app
   appWidth = width; // displayWidth
   appHeight = height; // displayHeight
-  println(width, height, displayWidth, displayHeight);
   // Canvas can only display when it is smaller than the DSIPLAY
-  if (width >= displayWidth) exit(); // 
-  if (height >= displayHeight) exit(); // \
-  if (width >= displayWidth || height >= displayHeight) println("Canvas is broken, bigger than display"); //known as 'Error Catch'    --> this line tho can be used to error check
+  if (width >= displayWidth || height >= displayHeight) {
+    println("Canvas is broken, bigger than display"); //Error catch
+    appWidth = displayWidth;
+    appHeight = displayHeight;
+  } 
+else {
+    println("Good to go");
+
+}; //End Canvas bigger than Display fix
+
   //More advanced algorithm 
   //
   //Display Geometry
